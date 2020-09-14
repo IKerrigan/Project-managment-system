@@ -40,11 +40,18 @@
 специфікації:*
 
    
-***ID:***
+***ID: Solvers***
     
 ***НАЗВА:***
     
-***УЧАСНИКИ:***
+***УЧАСНИКИ:*** 
+* Maksim Manchuk - maximmchk@gmail.com
+* Oleh Hutaliuk - ogk.langelius@gmail.com
+* Bohdan Korolevich - theclubmusic263@gmail.com
+* Andrii Rovyshin - a.rovishin@gmail.com
+* Ivanka Baranchuk - ivanna8589@gmail.com
+* Bohdana Ostrovska - bogdanaostrovska986@gmail.com
+* Iryna Stefanovych - iryna1stefanovych@gmail.com
 
 ***ПЕРЕДУМОВИ:***
 
