@@ -66,4 +66,4 @@
 
 ## Посилання
 
-*[Розділ містить повний список всіх документів, про які згадується.]*
+[Переглянути](https://docs.google.com/document/d/1EFvTh_G1M0zdma0s6cvYub-n5_u16LPhk4nAHBLj8Mo/edit?usp=sharing)
