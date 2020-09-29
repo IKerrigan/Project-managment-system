@@ -41,7 +41,7 @@
 
    
 ***ID: Type: Project managment system Package: #001 Scenario: #002 Version: 1.2
-BUC.001.002.v1.2***
+PMS.001.002.v1.2***
     
 ***НАЗВА:***
     
