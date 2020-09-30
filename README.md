@@ -1,7 +1,7 @@
 # Project management system
-Organization of databases.
+Організація баз даних.
 
-# Contributors:
+# Учасники:
 
 * Ірина Стефанович |Team Lead| - iryna1stefanovych@gmail.com
 * Богдана Островська - bogdanaostrovska986@gmail.com
