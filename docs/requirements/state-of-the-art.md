@@ -148,7 +148,7 @@
 | Швидкість доступу                                             | ✓     | ✓        | ✓            | ✓               | ✓               |
 | Наявність документації                                        | ✓     | ✓        | ✓            | ✓               | ✓               |
 | Своєчасне оновлення                                           | ✓     | ✓        | ✓            | ✓               | ✓               |
-| Інтеграції зі сторонніми серверами                            | Jira, Hubstaff, GitHub, Harvest, DigiSpoke, Slack, Zapier| Invision, Zapier|Slack, GitKraken Glo Boards, +Circle CI, Git, TravisCI | Zapier, Slack, GitHub, Jira, BlueJeans Meetings | Confluence, Bitbucket, Slack, GitHub, Confluence|
+| Інтеграції зі сторонніми серверами                            | Jira, Hubstaff, GitHub, Harvest, DigiSpoke, Slack, Zapier| Invision, Zapier|Slack, GitKraken Glo Boards, Circle CI, Git, TravisCI | Zapier, Slack, GitHub, Jira, BlueJeans Meetings | Confluence, Bitbucket, Slack, GitHub, Confluence|
 
 ## Висновки
 
