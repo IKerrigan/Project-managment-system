@@ -1,4 +1,4 @@
-# Project managment system. Запити зацікавлених осіб
+# Project management system. Запити зацікавлених осіб
 
 ## Вступ
 

@@ -1,4 +1,4 @@
-# Project managment system. Аналіз предметної області
+# Project management system. Аналіз предметної області
 
 ## Вступ
 

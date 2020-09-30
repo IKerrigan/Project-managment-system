@@ -1,4 +1,4 @@
-# Project managment system
+# Project management system
 Organization of databases.
 
 # Contributors:
