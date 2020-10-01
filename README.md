@@ -3,7 +3,7 @@
 
 # Учасники:
 
-* Ірина Стефанович |Team Lead| - iryna1stefanovych@gmail.com
+* Ірина Стефанович |Team Leader| - iryna1stefanovych@gmail.com
 * Богдана Островська - bogdanaostrovska986@gmail.com
 * Іванна Баранчук - ivanna8589@gmail.com
 * Андрій Ровишин - a.rovishin@gmail.com
