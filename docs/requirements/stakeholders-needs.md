@@ -30,7 +30,7 @@
 
 ## Характеристика ділових процесів
 
-![alt text](https://cdn.discordapp.com/attachments/754016110558445690/761509959639760896/unknown.png, "Бізнес актори")
+![](https://cdn.discordapp.com/attachments/754016110558445690/761509959639760896/unknown.png, "Бізнес актори")
 
    
 ***ID: Type: Project management system Package: #001 Scenario: #002 Version: 1.2
