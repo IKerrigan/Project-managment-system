@@ -30,7 +30,7 @@
 
 ## Характеристика ділових процесів
 
-![alt text][BA]
+[BA]
 [BA]:(https://cdn.discordapp.com/attachments/754016110558445690/761509959639760896/unknown.png)
 
    
