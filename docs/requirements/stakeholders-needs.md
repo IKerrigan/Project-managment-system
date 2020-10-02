@@ -33,6 +33,7 @@
  
 ![alt text](https://cdn.discordapp.com/attachments/754016110558445690/761509959639760896/unknown.png "Logo Title Text 1")
 
+![alt text](https://media.discordapp.net/attachments/754016110558445690/761512895342968842/unknown.png "Logo Title Text 1")
    
 ***ID: Type: Project management system Package: #001 Scenario: #002 Version: 1.2
 PMS.001.002.v1.2***
