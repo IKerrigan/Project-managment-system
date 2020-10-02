@@ -30,13 +30,8 @@
 
 ## Характеристика ділових процесів
 
-Inline-style: 
+ 
 ![alt text](https://cdn.discordapp.com/attachments/754016110558445690/761509959639760896/unknown.png "Logo Title Text 1")
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://cdn.discordapp.com/attachments/754016110558445690/761509959639760896/unknown.png "Logo Title Text 2"
 
    
 ***ID: Type: Project management system Package: #001 Scenario: #002 Version: 1.2
