@@ -1,5 +1,5 @@
 # Аналіз вимог до інформаційної системи
 
-В цьому файлі необхідно перелічити всі документи, розроблені в проекті та дати посилання на них.
+* [Переглянути аналіз предметної області](https://github.com/IKerrigan/Project_management_system/blob/master/docs/requirements/state-of-the-art.md)
 
-*В рамках проекту розробляються документи "Аналіз предметної області" та "Запити зацікавлених осіб".*
+* [Переглянути запити зацікавлених осіб](https://github.com/IKerrigan/Project_management_system/blob/master/docs/requirements/stakeholders-needs.md)
