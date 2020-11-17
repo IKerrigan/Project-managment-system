@@ -1,7 +1,6 @@
 @startuml
 
     left header
-        <font color=000 size=18><b>Package:</b> AD_1.0
         
         <font color=000 size=16><b>ID:</b> UC_1_1
         <font color=000 size=16><b>Назва:</b> Реєстрація нового користувача
