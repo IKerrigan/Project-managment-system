@@ -136,8 +136,7 @@
 
 **Виключні ситуації:**
 
-- EX.07.01  Попередньо створена Користувачем картка-завдання не була збережена
-- EX.07.02  Картка-завдання була видалена із Системи
+- EX.07.01  Картка-завдання була видалена із Системи
 
 ![UC_7_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_7_1)
 
