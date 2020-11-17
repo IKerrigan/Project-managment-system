@@ -67,7 +67,7 @@
 4) Користувач додає команду до дошки. (За бажанням)
 5) Користувач натискає на кнопку "Створити".
 6) Користувач завершає взаємодію.
-
+![UC_3_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_4_1)
 ***
 
 ### 5. Сценарій як додати нову картку.
