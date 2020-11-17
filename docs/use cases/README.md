@@ -81,17 +81,25 @@
 
 ### 5. Сценарій як додати нову картку.
 
-* **Передумова** — користувач має бути зареєстрованим, бути членом команди. (Обліковий запис користувача в системі присутній).
+**ID:** UC_5_1
 
-* **Результат** — додано нову картку.
+**Назва:** Створення нової картки-завдання.
 
-1) Користувач починає взаємодію.
-2) Користувач натискає на кнопку “Додати нову картку”.
-3) Користувач заповнює нову картку, вводячи завдання.
-4) Система створює нову картку та фіксує в ній дані завдання. (Тема та мета завдання, закріпляє осіб, які повинні виконати це завдання, встановлює сроки виконання)
-5) Система направляє користувачу повідомлення про створення нової картки на електрону пошту.
-6) Система надає користувачу дійсне посилання на створену картку.
-7) Користувач закінчує взаємодію.
+**Учасники:** Тімлід, розробник ПЗ, система.
+
+**Передумова:** Тімлід створює дошку проєкта у системі. Створено облікові записи розробників ПЗ у системі.
+
+**Результат:** створено нову картку-завдання.  
+
+**Виключні ситуації:**
+
+- EX.05.01  Дошка проєкту була видалена.
+- EX.05.02  Обліковий запис розробника ПЗ був видалений.
+- EX.05.03  Розробник ПЗ не доданий до команди проєкта.
+- EX.05.04  Тімлід не заповнив усі поля форми для створення нової картки-завдання.
+- EX.05.05  Розробник ПЗ не ввів електронну пошту або ввів не коректну електронну адресу.
+
+![UC_5_1](http://www.plantuml.com/plantuml/png/jLH5jXj13Dp_KoZCpCnto3BC76SLCeIPcIzWd7XCuokKhl1F4jNhUMt6zsCMj5Ggg_eM_kW7r56ppzAj6OaVrnD7hoMyjLtQimHDHFeG8Hh8wJj10MN-i7Y4adxG5uAoQ0gXfZIDW7xpsS-SvR82gff4Y88xNhBm8tDbhB3v8trdHbepEtp_IvSJ9-NQsTDd4hBWrAcZzl2XdSTs2xuXmb_K4B9yH-ZGuTLhDwrUkyuxJruw8ImtS3REb2PqL1syghaY6va0PvFVy8vJkYG1GmKYPtBIV9QrYdIWm2IBD_JbRFAxCATeoJKU08_LpKMyRA0VF0q8-z9m2x_R-CpTQiFV6H5EOCM8NUzPcQJhLB81Nmhph3-zWGFN1XrX3tJNl7D9P21tFDnq0-eBSXTfob7aHhGOKNXS25SArm9LY-fBLAtWHpDRH4MeBlMJUQIzE9Uj5Bn1Q1aH6Wpf0_rWlZy8sCZWDRYdFY6UlRjClAG_q2IbFU4vtCZr_PmR-gzf9_r3sQzoKdsecRwwd7YLoiYJG2jQZBLAAiYiFaOao6k6Gx9L0O550qP5CtuBQQFIsiGFZc9l4sYFYgYX_qVznluizsMW4oVtAatfndV4GyCMkBLsznf3DQyif-E-ckF4T7qSAR_XCkSjYveJk_L2cP_8Mp1aOTG5F_5n6eY-iuoDbjS-EyMWOYynD430-WmHjHtR0N7mZYC4C3VZZZ-Qozj_W_tdWsJrgvin8LiTWlX1U0ZT1lJdiPEj2OUxdhXyPSVCNWDsu-A5Vm00)
 
 ***
 
