@@ -10,7 +10,22 @@
 ***
 ### Сценарій №1 
 
-![UC_1_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_1_1)
+ID: UC_1_1
+
+Назва: Реєстрація нового користувача.
+
+Учасники: Користувач, система
+
+Передумова: Користувач має бути не зареєстрованим. (Обліковий запис користувача в системі відсутній)
+
+Результат: Реєстрація нового облікового запису користувача.
+
+Виключні ситуації:
+- EX.01.01 користувач ввів дані акаунту що вже існує
+- EX.01.02 користувач ввів неправильний e-mail
+- EX.01.03 користувач неправильно повторив пароль
+
+![UC_1_1](http://www.plantuml.com/plantuml/png/hLKrbXmn5Cpx538pHsQ-WqCpCqHcPcQsKwFSkyCy9wX_8vT-wsc7cOLLzR6ZBUVExpbx_iA9uv7Xwn8-e2pNa9NhSaDk8eQLkvUubRpqR9YjC_ZC_HlkDF8SlJ8emHgEIoYZWhpSDFMVU0jBo9IyKj1h7bQloTDwORrd_fwm8eKYxAKM5amhljnIUKK2Dq9oxuwyaRVh1p62W5H4UMNkbEG9ONLIGChCFh3in9uZnsVtr_ILx5I0cBpNvAdJTXTPmzbrWjxadEWn3qppMq8MEPDWhmye9q-TFs3E7Zbq-BoPS_3W7hx2reQzcmm-KLIQihB4AJTjxTorVDNobQiwhAqEQmTExbU6iLqYRr1S84zfZw5jmH_ondkf5qf3l6Ppmt9CL7dahmvvdHlavegyeHMFJ2FYw25pSqmhV3Aov5Pu3YdapOn4RcU2A6JxY_8OoBhZFM4wk6Ry35apMZPqgEl6afwjSOgTD-KU3_5WfsfyCa18ldCrTbeqtCeHQwrmy8_UU4FYi9JHx21KGq1kmDAJxXmPageZZ3pYhSvD0ZaDQOWj2TfS0RkyGtuswdwHf8m3vPM29bCd94feI2ngSYM54fcV6hrUxkYvmAKDrJUEfOQO38Vw8UaeX0ybygPZHvoK8LJ1gSzpb3GFQDLjsZJDOMjlkEbv1tked3gzFegsC4NTOoZw3m00)
 
 ***
 
@@ -30,6 +45,8 @@
 
 - EX.02.01 Користувач не має акаунту в системі.
 
+![UC_2_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_2_1)
+
 ***
 ### Сценарій №3
 
@@ -37,11 +54,11 @@
 
 **Назва:** Створення команди
 
-**Учасники:** Тімлід, система, розробник ПЗ
+**Учасники:** Тімлід, Система, Розробник ПЗ
 
-**Передумова:** Тімлід створює проєкт в системі.
+**Передумова:** Тімлід створює проєкт в Системі.
 
-**Результат:** усі розробники ПЗ мають доступ до дошки проєкту в системі. 
+**Результат:** усі Розробники мають доступ до проєкту в Системі. 
 
 **Виключні ситуації:**
 
@@ -67,7 +84,7 @@
 4) Користувач додає команду до дошки. (За бажанням)
 5) Користувач натискає на кнопку "Створити".
 6) Користувач завершає взаємодію.
-![UC_3_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_4_1)
+
 ***
 
 ### 5. Сценарій як додати нову картку.
