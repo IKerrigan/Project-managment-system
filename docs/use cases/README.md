@@ -65,10 +65,11 @@
 
 **Передумова:** Тімлід має бути зареєстрованимв системі
 
-**Результат:** Створено дошку проекту.
+**Результат:** Створено дошку проєкту.
 
 **Виключні ситуації:**
 - EX.04.01 Тімлід не має акаунту в системі.
+- EX.04.01 Тімлід не заповнив поля форми "Add board title".
 
 
 ![UC_3_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_4_1)
