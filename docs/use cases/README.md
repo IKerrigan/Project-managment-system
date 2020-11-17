@@ -31,9 +31,9 @@
 - EX.02.01 Користувач не має акаунту в системі.
 
 ***
-### Сценарій №3
+### Сценарій №5
 
-**ID:** UC_3_1
+**ID:** UC_5_1
 
 **Назва:** Створення команди
 
@@ -51,7 +51,7 @@
 - EX.03.04  Тімлід не коректно ввів юзернейм
 - EX.03.05  Розробник ПЗ відхилив запрошення
 
-![UC_3_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_3_1)
+![UC_3_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_5_1)
 
 ***
 
