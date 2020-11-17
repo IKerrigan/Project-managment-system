@@ -17,17 +17,19 @@
 
 **ID:** UC_2_1
 
-**Назва:** Надання пакету платних послуг.
+**Назва:** Надання пакету платних послуг
 
-**Учасники:** Користувач, система.
+**Учасники:** Користувач, система
 
-**Передумова:** Користувач має бути зареєстрованим. (Мати обліковий запис в системі).
+**Передумова:** Користувач має бути зареєстрованим (Мати обліковий запис в системі)
 
-**Результат:** Оформлено пакет платних послуг для користувача.
+**Результат:** Оформлено пакет платних послуг для користувача
 
 **Виключні ситуації:**
 
-- EX.02.01 Користувач не має акаунту в системі.
+- EX.02.01 Користувач не має акаунту в системі
+
+![UC_2_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_2_1)
 
 ***
 
@@ -35,20 +37,24 @@
 
 **ID:** UC_3_1
 
-**Назва:** Сплата обраного пакету послуг
+**Назва:** Оплата обраного пакету послуг
 
-**Учасники:** Користувач, система, банк
+**Учасники:** Користувач, система, платіжна система
 
-**Передумова:** Користувач має обрати пакет послуг та натиснути на кнопку "Сплатити"
+**Передумова:** Користувач має обрати пакет послуг та натиснути на кнопку "Pay"
 
-**Результат:** Сплата пакету послуг
+**Результат:** Користувач оплатив обраний пакет послуг
 
 **Виключні ситуації:**
 
-- EX.03.01 Користувач не має акаунту в систем
-- EX.03.02 Недостатньо коштів на платіжній карткі
-- EX.03.03 Платіжна картка заблокована
+- EX.03.01 Користувач неправильно заповнив поля форми
+- EX.03.02 Користувач не погодився із умовами надання послуг та політикой конфідеційності
+- EX.03.03 Недостатньо коштів на платіжній карткі
+- EX.03.04 Платіжна картка заблокована
 
+![UC_3_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_3_1)
+
+***
 
 ### Сценарій №4
 
@@ -63,9 +69,10 @@
 **Результат:** Створено дошку проєкту
 
 **Виключні ситуації:**
+
 - EX.04.01 Тімлід не заповнив поля форми "Add board title"
 
-![UC_3_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_4_1)
+![UC_4_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_4_1)
 ***
 
 ### Сценарій №5
@@ -88,7 +95,7 @@
 - EX.05.04  Тімлід не коректно ввів юзернейм
 - EX.05.05  Розробник ПЗ відхилив запрошення
 
-![UC_3_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_3_1)
+![UC_5_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_5_1)
 
 ***
 
