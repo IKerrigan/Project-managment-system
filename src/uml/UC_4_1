@@ -1,0 +1,15 @@
+@startuml
+|Користувач|
+        start
+        :Користувач починає взаємодію;
+        note right #ffaaaa
+        <b> Можливі
+        <b> EX.04.01
+        end note
+        : В роздііл "Boards" натискає на кнопку "Create new board";
+        : Користувач вводить назву дошки в поле "Add board title" та натискає кнопку "Create Board" ;
+    |Система|
+        : Створює нову дошку проекту;
+        
+    stop;
+@enduml
