@@ -45,13 +45,13 @@
 
 **Виключні ситуації:**
 
-- EX.03.01  Розробник ПЗ не має акаунту в системі
-- EX.03.02  Тімлід не отримав юзернейму Розробника ПЗ
-- EX.03.03  Розробник ПЗ надав не коректний юзернейм
-- EX.03.04  Тімлід не коректно ввів юзернейм
-- EX.03.05  Розробник ПЗ відхилив запрошення
+- EX.05.01  Розробник ПЗ не має акаунту в системі
+- EX.05.02  Тімлід не отримав юзернейму Розробника ПЗ
+- EX.05.03  Розробник ПЗ надав не коректний юзернейм
+- EX.05.04  Тімлід не коректно ввів юзернейм
+- EX.05.05  Розробник ПЗ відхилив запрошення
 
-![UC_3_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_5_1)
+![UC_3_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_3_1)
 
 ***
 
@@ -136,7 +136,8 @@
 
 **Виключні ситуації:**
 
-- EX.07.01  Картка-завдання була видалена із Системи
+- EX.07.01  Попередньо створена Користувачем картка-завдання не була збережена
+- EX.07.02  Картка-завдання була видалена із Системи
 
 ![UC_7_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_7_1)
 
