@@ -8,20 +8,8 @@
 ***ОСНОВНИЙ СЦЕНАРІЙ:***
 
 ***
-
-### 1. Сценарій реєстрації нового користувача.
-
-* **Передумова** - користувач має бути не зареєстрованим. (Обліковий запис користувача в системі відсутній)
-
-* **Результат** – обліковий запис нового користувача.
-
-1) Користувач розпочинає взаємодію.
-2) Користувач натискає на кнопку «Зареєструватися».
-3) Користувач заповнює реєстраційну форму.
-4) Система створює новий обліковий запис та фіксує в ньому реєстраційні дані користувача.
-5) Система направляє користувачу повідомлення на електронну пошту.
-6) Система надає користувачу сторінку входу в систему.
-7) Користувач закінчує взаємодію.
+### Сценарій №1 
+![UC_1_1](http://www.plantuml.com/plantuml/png/hLR5bXj13BpxAphCpCnq3vsMcI7CpCoCj-2ibupZz_OBf3zAIUvjKyTUvXwf15LIJsHd_udQlXCdEpiY4OEFZiQc4wQbiRQXiK_-ru-jJTrT9qnzTqTttxQLArUQ_jPpZTjMhT--jMxxeRsRjwwesswExAbULRrg8XxqaG8QfIW5MK_wGiFyWg_oDRv20T_YL_pOK9f2c8GqIA6X18Lu5bERw-B9jocOKAplOibN0HS3Iin6V5UAjzJGr-m93LDgWkYVaVaLs0y19IK9bujW19PV61hWwuWIang73JeH28RhWA04cczg8NsY0KhoAwIku1HNUye8yd_QOYXgKB0hXL_X1113E92uQVmTNpIXya0CZG8voG_W6F2r2HCMkhpTeSjSyfWEfS-4Ig0_WWUAqM85nARoMfEiY6ISnJApx_ZobQlmvSqAtTF-HGqDKQ0HAO1X08Eqc1c-Iw5OZO1EVYLYGwDVbEAlheGFFL16UYfSIzSfhPmtBkkiRUqe1LpZ1VJZ8CECa04YrKFYPLHweLX47Fg4EFWaLGgSpH3nRo5eMW15NpaE76HZLyFuMj7_B_Xcv8BpqQNa_jjiwAC8KAorzo-C19Fw9OqC9S33s4zwNJXC2clT-F5OSekDN33f5ugYq93YymrDBmNWVCXnbMsPI140VAsYrqxn8y3gFqaePNQMrTaLSt9R1Yf1IOy10kN7ygIc4f8rHCC5YjdYKBgwJpIQljRcbXDcJbDJBJvoDCj4Vw0GyasAB2WiU0IfoMXupbQxCw5M8aox9P1EQW4_BbrXjalbKFBucfslREiwINStAVmALJmec9KfKsONiS3RlmB45dYtMXm87e-wf2XMEIcBGJ4nBmFZRysq5R9cAchmp7NXICzMdgBIJRv3CJ7qJUEZ2L3o5QTHoIMhkNJkHWtBNR8E0ku1EYbsVDLE7M3u0RpyIuBYIgdZrd_dBS-Hu1NgCn6AM-T94PCN2IdaX2KvKLBNGLhcITn3R-TSB5seTd4iHMr2X_R1RlZhkH5vvTs8CrM8jFdgkCufhJf0LJSfbFUiajrmtSQTsANItRCb4ja9YUhxxZy0)
 
 ***
 
