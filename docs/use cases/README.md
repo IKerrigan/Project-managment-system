@@ -96,6 +96,7 @@
 - EX.05.05  Розробник ПЗ відхилив запрошення
 
 ![UC_5_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_5_1)
+
 ***
 
 ### Сценарій №6
