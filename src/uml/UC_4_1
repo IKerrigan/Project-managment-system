@@ -8,7 +8,7 @@
         : Тімлід заповнює поля наданої форми, такі як "Add board title";
         note right #ffaaaa
         <b> Можливі
-        <b> EX.04.02
+        <b> EX.04.01
         end note
         : Тімлід натискає кнопку "Create Board";
    |Система|
