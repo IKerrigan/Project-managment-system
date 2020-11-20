@@ -195,3 +195,20 @@
 ![UC_9_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_9_1)
 
 ***
+### Сценарій №10
+
+**ID:** UC_10_1
+
+**Назва:** Створення/Редагування/Видалення картки- завдання
+
+**Учасники:** Розробник ПЗ, система
+
+**Передумова:** Картка-завдання попередньо створена/редагована/видалена тімлідом 
+
+**Результат:** Розробник ПЗ ознайомлений із карткою-завданням.
+
+**Виключні ситуації:**
+
+-	EX.10.01 Обліковий запис розробника ПЗ був видалений
+-	EX.10.02 Розробник ПЗ не доданий до команди проєкта
+![UC_10_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_10_1)
