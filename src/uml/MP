@@ -1,0 +1,49 @@
+@startuml
+
+    
+
+    title
+       
+        <font size=16 color=black>Діаграма прецедентів
+    end title
+
+    actor "Замовник" as Customer
+    actor "Тімлід" as TeamLead
+    actor "Розробник ПЗ" as Developer
+    actor "Користувач" as User
+    
+    usecase "<b>UC_1_1</b>\nРеєстрація нового користувача" as UC_1_1
+    usecase "<b>UC_2_1</b>\nНадання пакетних послуг" as UC_2_1
+    usecase "<b>UC_3_1</b>\nОплата обраного пакету послуг" as UC_3_1
+    usecase "<b>UC_4_1</b>\nСтворення дошки проєкту" as UC_4_1
+    usecase "<b>UC_5_1</b>\nСтворення команди" as UC_5_1
+    usecase "<b>UC_6_1</b>\nСтворення нової картки-завдання" as UC_6_1
+    usecase "<b>UC_7_1</b>\nРедагування картки-завдання" as UC_7_1
+    usecase "<b>UC_8_1</b>\nВидалення картки-завдання" as UC_8_1
+    usecase "<b>UC_9_1</b>\nЗміна статусу картки-завдання" as UC_9_1
+    usecase "<b>UC_10_1</b>\nСтворення/Редагування/Видалення картки- завдання" as UC_10_1
+    
+    
+    Customer -l-> UC_1_1
+  
+    TeamLead -l-> UC_4_1
+    TeamLead -u-> UC_6_1
+    TeamLead -u-> UC_5_1
+    TeamLead -r-> UC_7_1
+    TeamLead --> UC_8_1
+    TeamLead --> UC_9_1
+    
+    Developer -u-> UC_5_1
+    Developer -u-> UC_6_1
+    Developer -r-> UC_7_1
+    Developer -l-> UC_8_1
+    Developer --> UC_9_1
+    Developer --> UC_10_1
+    
+    User --> UC_1_1
+    User --> UC_2_1
+    User --> UC_3_1
+    
+    
+ 
+@enduml
