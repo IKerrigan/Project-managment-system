@@ -22,6 +22,7 @@
     usecase "<b>UC_8_1</b>\nВидалення картки-завдання" as UC_8_1
     usecase "<b>UC_9_1</b>\nЗміна статусу картки-завдання" as UC_9_1
     usecase "<b>UC_10_1</b>\nСтворення/Редагування/Видалення картки- завдання" as UC_10_1
+    usecase "<b>UC_11_1</b>\nОновлення статусу картки-завдання розробником" as UC_11_1
     
     
     Customer -l-> UC_1_1
@@ -39,6 +40,7 @@
     Developer -l-> UC_8_1
     Developer --> UC_9_1
     Developer --> UC_10_1
+    Developer --> UC_11_1
     
     User --> UC_1_1
     User --> UC_2_1
