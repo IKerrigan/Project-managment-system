@@ -5,7 +5,7 @@
 *Модель прецедентів повинна містити загальні оглядові діаграми та специфікації прецедентів.*
 
 *Вбудовування зображень діаграм здійснюється з використанням сервісу plantuml.com. Сервіси взаємодіють так, як зобраажено на діаграмі нижче.*
-
+![MP](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/MP)
 ***
 ### Сценарій №1 
 **ID**: UC_1_1
