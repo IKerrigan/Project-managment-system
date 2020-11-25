@@ -235,3 +235,32 @@
 ![UC_11_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_11_1)
 
 ***
+
+### Сценарій №12 
+**ID**: UC_12_1
+
+**Назва**: Приєднання розробника до команди
+
+**Учасники**: Розробник, система
+
+**Передумова**: Розробник має бути зареєстрованим. 
+
+**Результат**: Приєднання розробника до команди
+
+![UC_12_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_12_1)
+
+***
+
+**ID**: UC_13_1
+
+**Назва**: Додання коментаря замовника до робочої версії проекту
+
+**Учасники**: Замовник, система
+
+**Передумова**: Замовник має бути зареєстрованим 
+
+**Результат**: Приєднання розробника до команди
+
+![UC_13_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_13_1)
+
+***
