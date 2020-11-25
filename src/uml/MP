@@ -1,3 +1,4 @@
+
 @startuml
 
     
@@ -10,42 +11,48 @@
     actor "Замовник" as Customer
     actor "Тімлід" as TeamLead
     actor "Розробник ПЗ" as Developer
-    actor "Користувач" as User
+
     
-    usecase "<b>UC_1_1</b>\nРеєстрація нового користувача" as UC_1_1
-    usecase "<b>UC_2_1</b>\nНадання пакетних послуг" as UC_2_1
-    usecase "<b>UC_3_1</b>\nОплата обраного пакету послуг" as UC_3_1
-    usecase "<b>UC_4_1</b>\nСтворення дошки проєкту" as UC_4_1
-    usecase "<b>UC_5_1</b>\nСтворення команди" as UC_5_1
-    usecase "<b>UC_6_1</b>\nСтворення нової картки-завдання" as UC_6_1
-    usecase "<b>UC_7_1</b>\nРедагування картки-завдання" as UC_7_1
-    usecase "<b>UC_8_1</b>\nВидалення картки-завдання" as UC_8_1
-    usecase "<b>UC_9_1</b>\nЗміна статусу картки-завдання" as UC_9_1
-    usecase "<b>UC_10_1</b>\nСтворення/Редагування/Видалення картки- завдання" as UC_10_1
-    usecase "<b>UC_11_1</b>\nОновлення статусу картки-завдання розробником" as UC_11_1
+    usecase "<b>UC_1_1</b>\nРеєстрація \nнового \nкористувача" as UC_1_1
+    usecase "<b>UC_1_1</b>\nРеєстрація \nнового \nкористувача" as UC_1_2
+    usecase "<b>UC_2_1</b>\nНадання \nпакетних \nпослуг" as UC_2_1
+    usecase "<b>UC_2_1</b>\nНадання \nпакетних \nпослуг" as UC_2_2
+    usecase "<b>UC_3_1</b>\nОплата обраного \nпакету послуг" as UC_3_1
+    usecase "<b>UC_3_1</b>\nОплата обраного \nпакету послуг" as UC_3_2
+    usecase "<b>UC_4_1</b>\nСтворення \nдошки проєкту" as UC_4_1
+    usecase "<b>UC_5_1</b>\nСтворення \nкоманди" as UC_5_1
+    usecase "<b>UC_6_1</b>\nСтворення нової \nкартки-завдання" as UC_6_1
+    usecase "<b>UC_7_1</b>\nРедагування \nкартки-завдання" as UC_7_1
+    usecase "<b>UC_8_1</b>\nВидалення \nкартки-завдання" as UC_8_1
+    usecase "<b>UC_9_1</b>\nЗміна статусу \nкартки-завдання" as UC_9_1
+    usecase "<b>UC_10_1</b>\nСтворення/Редагування/Видалення \nкартки-завдання" as UC_10_1
+    usecase "<b>UC_11_1</b>\nОновлення статусу \nкартки-завдання \nрозробником" as UC_11_1
+    usecase "<b>UC_12_1</b>\n..." as UC_12_1
     
     
-    Customer -l-> UC_1_1
-  
-    TeamLead -l-> UC_4_1
+    
+    
+    TeamLead -l-> UC_1_1
+    TeamLead -l-> UC_2_1
     TeamLead -u-> UC_6_1
     TeamLead -u-> UC_5_1
+    TeamLead -u- Customer
+    TeamLead -u-> UC_4_1
+    TeamLead -u-> UC_3_1
+    TeamLead -r-> UC_9_1
+    TeamLead -r-> UC_8_1
     TeamLead -r-> UC_7_1
-    TeamLead --> UC_8_1
-    TeamLead --> UC_9_1
+    TeamLead -- Developer
     
-    Developer -u-> UC_5_1
-    Developer -u-> UC_6_1
-    Developer -r-> UC_7_1
-    Developer -l-> UC_8_1
-    Developer --> UC_9_1
+
+    Developer -l-> UC_1_2
+    Developer --> UC_3_2
+    Developer -r-> UC_2_2
     Developer --> UC_10_1
     Developer --> UC_11_1
-    
-    User --> UC_1_1
-    User --> UC_2_1
-    User --> UC_3_1
-    
+    Developer --> UC_12_1
+   
+  
     
  
 @enduml
