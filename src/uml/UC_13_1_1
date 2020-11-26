@@ -1,12 +1,12 @@
 @startuml
   actor Замовник
-  
+
   usecase "Контроль звітності успішного\nвиконання роботи" as AP #FFFFFF
   usecase "Перевірка завдань після\nкожного спринта" as CEP #FFFFFF
   usecase "Формування нових вимог\nдо системи проєкту" as RP #FFFFFF
-  
+
   Замовник <.. CEP
   Замовник <.. AP
   Замовник <.. RP
-  
+
 @enduml
