@@ -1,0 +1,12 @@
+@startuml
+  actor Замовник
+  
+  usecase "Контроль процесу" as AP
+  usecase "Перевірка завдань спринта" as CEP
+  usecase "Внесення правок" as RP
+  
+  Замовник --> CEP
+  Замовник --> AP
+  Замовник --> RP
+  
+@enduml
