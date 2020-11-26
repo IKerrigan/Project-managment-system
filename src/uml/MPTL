@@ -1,0 +1,27 @@
+@startuml
+usecase UC_1 as "<b>UC_1_1</b>\nРеєстрація нового користувача"
+usecase UC_2 as "<b>UC_2_1</b>\nНадання пакету\nплатних послуг"
+usecase UC_3 as "<b>UC_3_1</b>\nОплата пакету\nпослуг"
+usecase UC_4 as "<b>UC_4_1</b>\nСтворення дошки\n проєкту"
+usecase UC_5 as "<b>UC_5_1</b>\nСтворення\nкоманди"
+usecase UC_6 as "<b>UC_6_1</b>\nСтворення\nкартки-завдання"
+usecase UC_7 as "<b>UC_7_1</b>\nРедагування\nкартки-завдання"
+usecase UC_8 as "<b>UC_8_1</b>\nВидалення\nкартки-завдання"
+usecase UC_9 as "<b>UC_9_1</b>\nЗміна статусу\nкартки-завдання"
+
+
+
+actor :Тімлід: as TL
+
+TL -r-|> UC_1
+UC_1 --> UC_2
+UC_1 --> UC_4
+UC_2 --> UC_3
+UC_4 --> UC_5
+UC_4 --> UC_6
+UC_6 ..> UC_7
+UC_6 ..> UC_8
+UC_6 ..> UC_9
+
+
+@enduml
