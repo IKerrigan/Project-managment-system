@@ -1,7 +1,5 @@
 # Модель прецедентів
 
-В цьому файлі необхідно перелічені всі документи, розроблені в проекті та надані посилання на них.
-
 ![MP](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/MP)
 ***
 ### Сценарій №1 
@@ -256,7 +254,7 @@
 
 **Передумова**: Замовника має бути додано до дошки проєкту
 
-**Результат**: Команда отримує правки замовника 
+**Результат**: Тімлід отримує правки замовника 
 
 ![UC_13_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_13_1)
 
