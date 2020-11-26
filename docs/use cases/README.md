@@ -1,6 +1,7 @@
 # Модель прецедентів
 
 ![MP](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/MP)
+![UC_10_1_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_10_1_1)
 ***
 ### Сценарій №1 
 **ID**: UC_1_1
@@ -19,7 +20,6 @@
 - EX.01.03 користувач неправильно повторив пароль
 
 ![UC_1_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_1_1)
-![UC_10_1_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/IKerrigan/Project_management_system/master/src/uml/UC_10_1_1)
 
 
 ***
