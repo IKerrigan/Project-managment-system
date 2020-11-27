@@ -1,0 +1,17 @@
+@startuml
+actor :Тімлід: as TL
+usecase UC_T as "Управління завданнями"
+usecase UC_T1 as "Створити\nкартку-завдання" #white
+usecase UC_T2 as "Редагувати\nкартку-завдання" #white
+usecase UC_T3 as "Видалити\nкартку-завдання" #white
+usecase UC_T4 as "Підтвердити виконання\nзавдання" #white
+
+TL ---> UC_T
+UC_T <.. UC_T1
+UC_T <.. UC_T2
+UC_T <.. UC_T3
+UC_T <.. UC_T4
+UC_T3 .left.> UC_T1
+
+
+@enduml
