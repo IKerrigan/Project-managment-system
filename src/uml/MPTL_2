@@ -1,0 +1,20 @@
+@startuml
+
+usecase UC_T as "Управління командою"
+usecase UC_T1 as "Додати розробника \n до команди" #white
+usecase UC_T2 as "Змінити права \nрозробника" #white
+usecase UC_T3 as "Видалити розробника \nз команди" #white
+usecase UC_T4 as "Переглянути список \nрозробників" #white
+usecase UC_T5 as "Додати команду \nдо дошки" #white
+
+actor :Тімлід: as TL
+
+TL ---> UC_T
+UC_T <.. UC_T1
+UC_T <.. UC_T2
+UC_T <.. UC_T3
+UC_T <.. UC_T4
+UC_T <.. UC_T5
+
+
+@enduml
