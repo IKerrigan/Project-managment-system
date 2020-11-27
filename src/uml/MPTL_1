@@ -11,7 +11,6 @@ UC_T <.. UC_T1
 UC_T <.. UC_T2
 UC_T <.. UC_T3
 UC_T <.. UC_T4
-UC_T3 .left.> UC_T1
 
 
 @enduml
