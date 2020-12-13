@@ -11,21 +11,22 @@ entity User <<ENTITY>> {
   }
   
   entity Project <<ENTITY>> {
-    id GUID
+    name
+    description
   }
   
   entity Metadata <<ENTITY>> {
-    key (name, description, siteUrl, icon, etc )
+    key 
     value
   }
   
   entity Artefact <<ENTITY>> {
     name
-    url (ref to git repo location) 
+    url  
   }
   
   entity Attachement <<ENTITY>> {
-    role (input, doc, result, misc)
+    role 
   }
   
   
@@ -36,10 +37,10 @@ entity User <<ENTITY>> {
   }
   
   entity Action <<ENTITY>> {
-    resultTaskState (created, commited, closed, reopened, etc)
+    resultTaskState 
     actedAt Date
   }
-  note "Responsible User is used in assign action\n Typical task life cicle is\n <b>create->assign->accept->update->commit</b>" as n
+  
     
 n .l. Action
 
