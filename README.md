@@ -1,6 +1,5 @@
-# Project management system
-Організація баз даних.
-
+# WorkTime
+![logo](https://github.com/IKerrigan/Project_management_system/blob/master/src/img/logos.jpg)
 # Учасники:
 
 * Ірина Стефанович |Team Leader| - iryna1stefanovych@gmail.com
