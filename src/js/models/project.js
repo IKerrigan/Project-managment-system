@@ -5,6 +5,10 @@ class Project extends Sequilize.Model {}
 
 Project.init(
     {
+        id: {
+            type: Sequilize.INTEGER,
+            primaryKey: true
+        },
         name: {
             type: Sequilize.STRING(500),
             allowNull: false
