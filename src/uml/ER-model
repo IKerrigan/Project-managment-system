@@ -53,8 +53,8 @@ entity User <<ENTITY>> {
     Attachement "(0,*)"-"(1,1)" Task
     Attachement "(0,*)"-l-"(1,1)" Artefact
     
-    Action "(0,*)"-u-"(1,1)\nActor\n(<i>who is performing the action</i>)" User
-    Action "(0,*)"-u-"(0,1)\nResponsible" User
+    Action "(0,*)"-u-"(1,1)" User
+    Action "(0,*)"-u-"(0,1)" User
     Action "(0,*)"--"(1,1)" Task
 
 @enduml
