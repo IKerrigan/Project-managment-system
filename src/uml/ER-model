@@ -42,7 +42,7 @@ entity User <<ENTITY>> {
   }
   
     
-n .l. Action
+.l. Action
 
   
     Access "(0,*)"--"(1,1)" User
