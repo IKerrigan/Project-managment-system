@@ -2,7 +2,7 @@
 entity User <<ENTITY>> {
     email
     password
-    username
+    name
     status
   }
   
@@ -11,22 +11,49 @@ entity User <<ENTITY>> {
   }
   
   entity Project <<ENTITY>> {
-    name
-    description
+    id GUID
   }
+  
+  entity Metadata <<ENTITY>> {
+    key (name, description, siteUrl, icon, etc )
+    value
+  }
+  
+  entity Artefact <<ENTITY>> {
+    name
+    url (ref to git repo location) 
+  }
+  
+  entity Attachement <<ENTITY>> {
+    role (input, doc, result, misc)
+  }
+  
   
   entity Task <<ENTITY>> {
     name
-    desctiption
-    date_of_creation
+    description
     deadline
-    status
   }
   
-  
+  entity Action <<ENTITY>> {
+    resultTaskState (created, commited, closed, reopened, etc)
+    actedAt Date
+  }
+  note "Responsible User is used in assign action\n Typical task life cicle is\n <b>create->assign->accept->update->commit</b>" as n
+    
+n .l. Action
+
   
     Access "(0,*)"--"(1,1)" User
     Access "(0,*)"--"(1,1)" Project
     Task "(0,*)"-u-"(1,1)" Project
-  
+    Metadata "(0,*)"-"(1,1)" Project
+    
+    Attachement "(0,*)"-"(1,1)" Task
+    Attachement "(0,*)"-l-"(1,1)" Artefact
+    
+    Action "(0,*)"-u-"(1,1)\nActor\n(<i>who is performing the action</i>)" User
+    Action "(0,*)"-u-"(0,1)\nResponsible" User
+    Action "(0,*)"--"(1,1)" Task
+
 @enduml
